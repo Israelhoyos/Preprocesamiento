@@ -1,28 +1,35 @@
 # Preprocesamiento
 
-El preprocesamiento en el análisis de datos es una etapa crucial que involucra la preparación y transformación de los datos brutos antes de su análisis. Este proceso es fundamental para asegurar la calidad y precisión de los resultados obtenidos en el análisis posterior. A continuación, se definen algunas de las tareas comunes en el preprocesamiento de datos:
+El preprocesamiento de datos es una etapa crucial en el análisis de datos y en la preparación de los datos para técnicas de machine learning. Implica transformar datos brutos en un formato adecuado para su análisis y modelado. Este proceso mejora la calidad de los datos y puede tener un impacto significativo en la precisión y eficacia de los modelos de machine learning.
 
-## Tareas Comunes en el Preprocesamiento de Datos
-### Limpieza de Datos:
+## Pasos Comunes en el Preprocesamiento de Datos
+### 1.Recolección de Datos:
 
-* Manejo de Valores Faltantes: Los datos pueden tener valores ausentes o nulos. Estas ausencias pueden ser manejadas eliminando las filas o columnas con valores faltantes, o imputando estos valores con alguna estrategia (como la media, mediana, o un valor constante).
-* Corrección de Errores: Corregir errores tipográficos, inconsistencias y valores anómalos que pueden distorsionar el análisis.
-### Transformación de Datos:
+* Definición del problema: Entender claramente el problema y el objetivo del análisis.
+* Fuente de datos: Identificar y recolectar datos de diversas fuentes como bases de datos, archivos CSV, APIs, sensores, etc.
 
-* Escalado y Normalización: Ajustar los valores de los datos para que caigan dentro de un rango específico (por ejemplo, 0 a 1) o para tener una media de 0 y una desviación estándar de 1. Esto es importante para algoritmos que son sensibles a la escala de los datos.
-* Codificación de Variables Categóricas: Convertir variables categóricas en un formato numérico que pueda ser utilizado por algoritmos de aprendizaje automático. Ejemplos incluyen la codificación one-hot y la codificación de etiquetas.
-  
-### Reducción de Dimensionalidad:
+### 2.Limpieza de Datos:
 
-* Selección de Características: Elegir las características más relevantes para el análisis para reducir el número de variables y mejorar la eficiencia del modelo.
-* Extracción de Características: Crear nuevas variables a partir de las existentes, que puedan proporcionar mejor información para el análisis.7
-  
-### Integración de Datos:
+* Manejo de valores faltantes: Imputación de valores faltantes usando la media, mediana, o un valor constante, o eliminación de registros/fila.
+* Detección y eliminación de valores atípicos: Identificación de outliers y decidir si eliminarlos o transformarlos.
+* Corrección de errores: Rectificar datos incorrectos o inconsistentes.
+* Conversión de formatos: Transformar datos a formatos consistentes y utilizables.
 
-* Fusión de Datos: Combinar datos de diferentes fuentes para formar un conjunto de datos coherente.
-* Alineación de Datos: Asegurar que los datos de diferentes fuentes estén alineados correctamente en términos de tiempo, formato y estructura.
+### 3.Transformación de Datos:
 
-### Formateo de Datos:
+* Normalización/Escalado: Ajustar el rango de los valores de las características para que tengan una escala similar, utilizando técnicas como la normalización (min-max scaling) o la estandarización (z-score).
+* Codificación de variables categóricas: Convertir variables categóricas a un formato numérico utilizando técnicas como la codificación one-hot o label encoding.
+* Generación de características: Crear nuevas características a partir de las existentes que puedan aportar más valor predictivo al modelo.
+* Reducción de dimensionalidad: Utilizar técnicas como PCA (Análisis de Componentes Principales) para reducir el número de características mientras se mantiene la mayor cantidad posible de información relevante.
 
-* Conversión de Tipos de Datos: Asegurarse de que cada columna de datos esté en el formato adecuado (por ejemplo, convertir fechas de texto a formato de fecha).
-* Organización de Datos: Reestructurar los datos para que estén en un formato adecuado para el análisis, como convertir datos anchos a formato largo (longitudinal) y viceversa.
+### 4.Integración de Datos:
+
+* Combinación de datasets: Integrar múltiples datasets en un solo dataset unificado.
+* Unión y fusión de datos: Unir datasets basándose en claves comunes (como una columna de ID) utilizando técnicas de join (inner, outer, left, right).
+Selección de Datos:
+
+Selección de características: Identificar y seleccionar las características más relevantes para el análisis utilizando técnicas como selección basada en importancia, análisis de correlación, y técnicas de aprendizaje automático como los árboles de decisión.
+Filtrado de datos: Seleccionar subconjuntos de datos que sean relevantes para el análisis.
+División de Datos:
+
+Separación de datos en conjuntos de entrenamiento, validación y prueba: Dividir los datos en subconjuntos para entrenar, validar y probar los modelos de machine learning. Una división común es 70% para entrenamiento, 15% para validación y 15% para prueba.
