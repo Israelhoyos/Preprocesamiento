@@ -45,3 +45,11 @@ El preprocesamiento de datos es una etapa crucial en el análisis de datos y en 
 - SciPy: Para técnicas estadísticas y científicas.
 - scikit-learn: Para preprocesamiento de datos y algoritmos de machine learning.
 - Seaborn y Matplotlib: Para visualización de datos.
+
+**SQL:**
+
+* Para la extracción y manipulación de datos directamente desde bases de datos.
+
+**Herramientas de BI (Business Intelligence):**
+
+* Power BI: Para visualización y manipulación de datos.
