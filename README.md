@@ -26,10 +26,12 @@ El preprocesamiento de datos es una etapa crucial en el análisis de datos y en 
 
 * Combinación de datasets: Integrar múltiples datasets en un solo dataset unificado.
 * Unión y fusión de datos: Unir datasets basándose en claves comunes (como una columna de ID) utilizando técnicas de join (inner, outer, left, right).
-Selección de Datos:
 
-Selección de características: Identificar y seleccionar las características más relevantes para el análisis utilizando técnicas como selección basada en importancia, análisis de correlación, y técnicas de aprendizaje automático como los árboles de decisión.
-Filtrado de datos: Seleccionar subconjuntos de datos que sean relevantes para el análisis.
-División de Datos:
+### 5.Selección de Datos:
+
+* Selección de características: Identificar y seleccionar las características más relevantes para el análisis utilizando técnicas como selección basada en importancia, análisis de correlación, y técnicas de aprendizaje automático como los árboles de decisión.
+* Filtrado de datos: Seleccionar subconjuntos de datos que sean relevantes para el análisis.
+
+### 6.División de Datos:
 
 Separación de datos en conjuntos de entrenamiento, validación y prueba: Dividir los datos en subconjuntos para entrenar, validar y probar los modelos de machine learning. Una división común es 70% para entrenamiento, 15% para validación y 15% para prueba.
