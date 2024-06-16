@@ -34,4 +34,14 @@ El preprocesamiento de datos es una etapa crucial en el análisis de datos y en 
 
 ### 6.División de Datos:
 
-Separación de datos en conjuntos de entrenamiento, validación y prueba: Dividir los datos en subconjuntos para entrenar, validar y probar los modelos de machine learning. Una división común es 70% para entrenamiento, 15% para validación y 15% para prueba.
+* Separación de datos en conjuntos de entrenamiento, validación y prueba: Dividir los datos en subconjuntos para entrenar, validar y probar los modelos de machine learning. Una división común es 70% para entrenamiento, 15% para validación y 15% para prueba.
+
+## Herramientas y Bibliotecas para el Preprocesamiento de Datos
+
+**Python:**
+
+- Pandas: Para la manipulación y análisis de datos.
+- NumPy: Para operaciones numéricas y matemáticas.
+- SciPy: Para técnicas estadísticas y científicas.
+- scikit-learn: Para preprocesamiento de datos y algoritmos de machine learning.
+- Seaborn y Matplotlib: Para visualización de datos.
