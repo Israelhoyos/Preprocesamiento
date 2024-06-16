@@ -53,3 +53,6 @@ El preprocesamiento de datos es una etapa crucial en el análisis de datos y en 
 **Herramientas de BI (Business Intelligence):**
 
 * Power BI: Para visualización y manipulación de datos.
+----
+## Conclusión
+El preprocesamiento de datos es una fase fundamental en el análisis de datos y el machine learning, ya que garantiza que los datos estén en un formato adecuado y de alta calidad para su análisis y modelado. Al seguir una serie de pasos sistemáticos, se pueden identificar y corregir problemas en los datos, lo que puede mejorar significativamente el rendimiento y la precisión de los modelos predictivos.
